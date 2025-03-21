@@ -16,10 +16,10 @@ Below is a breakdown of technologies used :
 3.javascript-it handles interactivity ,event listenersand dynamic content updates. 
 
 ## How to create
-1.Clone your repository.
-2.Open the project using a code editor like VS code.
-3.Open index.html in a browser,this is by running it in the live server.
-4.Create a styles.css for styling.
-5.Create the index.js for interactivity.
-6.Add new ramen images in the index.html.
+Clone your repository.
+Open the project using a code editor like VS code.
+Open index.html in a browser,this is by running it in the live server.
+Create a styles.css for styling.
+Create the index.js for interactivity.
+Add new ramen images in the index.html.
   
