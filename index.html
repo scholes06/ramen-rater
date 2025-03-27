@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,41 +9,43 @@
 </head>
 <body>
     <h1>Ramen Rater</h1>
-    <div class="ramen-gallery">
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3xJ0RmO4F7B_RmlfGPlPe9xg5QNdlmNPSw&s" alt="Ramen">
-        <img src="https://media.istockphoto.com/id/1135293039/photo/ramen-asian-noodle-in-broth-with-beef-tongue-meat-mushroom-and-ajitama-pickled-egg-in-bowl-on.jpg?s=612x612&w=0&k=20&c=TURfMpmtRVxQwtlVpFOP0wvobPin2z98cTRbzkyN5yM=" alt="Ramen">
-       <img src="https://img.freepik.com/free-psd/spicy-ramen-noodles-bowl-kimchi-egg-spinach-sesame_84443-42642.jpg?semt=ais_hybrid" alt="Ramen">
-     <img src="https://img.freepik.com/free-photo/close-up-delicious-asian-food_23-2150535871.jpg?semt=ais_hybrid" alt="Ramen">
-    
+    <!-- Ramen Menu -->
+    <div id="ramen-menu" class="pics" >
+        <img src="Img/gyukotsu.jpg" alt="Gyukotsu Ramen" >
+        <img src="Img/kojiro.jpg" alt="kojiro Ramen" >
+        <img src="Img/naruto.jpg" alt="naruto Ramen" >
+        <img src="Img/nirvana.jpg" alt="nirvana Ramen">
+        <img src="Img/shoyu.jpg" alt="shoyu Ramen" >
     </div>
-    <div class="ramen-display">
-        <h2 id="ramen-name">Naruto Ramen</h2>
-        <img id="https://www.modernfarmhouseeats.com/wp-content/uploads/2021/03/chili-lime-shrimp-ramen-2-500x500.jpg"
-        src="ramen-main.jpg" alt="Ramen">
-        <p><strong>Rating:</strong>
-            <span id="ramen-rating">10/10</span> 
-            <p><strong>Comment:</strong></p>
-            <span id ="ramen-Comment">My absolute fave!</span>
-    </div>       
-    
-    <div class="add-ramen-form"> 
-<h3>Add New Ramen</h3>
-         <input type="text" id="name"
-      
-    place holder="Name">
-         <input type="text"    
-    id="restaurant"
-    placeholder="Restaurant">
-         <input type="text" id="image"        
-    placeholder="image URL">
-        <input type="number" id="rating"
-    placeholder="Rating (1-10)">
-        <input type="text" id="comment" 
-    placeholder="Comment">
-        <button
-    oneclick="addRamen()">Create</button>    
+
+    <!-- Ramen Details -->
+    <div id="ramen-detail">
+        <img id="mainImage" class="main-image" src="" alt="Selected Ramen">
+        <h2 id="ramenName">Ramen Name</h2>
+        <p><strong>Restaurant:</strong> <span id="ramenRestaurant">-</span></p>
+        <p><strong>Rating:</strong> <span id="ramenRating">0</span>/10</p>
+        <p><strong>Comment:</strong> <span id="ramenComment">No comments yet.</span></p>
+    </div>
+
+    <!-- Add New Ramen Form -->
+    <div class="form-container">
+        <h3>Add New Ramen</h3>
+        <form id="ramen-form">
+            <p>Name:</p>
+            <input type="text" id="name" required>
+            <p>Restaurant:</p>
+            <input type="text" id="restaurant" required>
+            <p>Image Url:</p>
+            <input type="text" id="image"  required>
+            <p>Rating:</p>
+            <input type="number" id="rating"  required>
+            <p>Comment:</p>
+            <input type="text" id="comment"  required>
+            <button type="submit">Add Ramen</button>
+        </form>
     </div>
 
     <script src="index.js"></script>
 </body>
 </html>
+

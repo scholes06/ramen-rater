@@ -1,0 +1,20 @@
+{
+    "ramens": [
+      {
+        "id": 1,
+        "name": "Tonkotsu Ramen",
+        "restaurant": "Ichiran",
+        "rating": 4.8,
+        "image": "https://example.com/tonkotsu.jpg",
+        "review": "Rich, creamy broth with tender pork slices."
+      },
+      {
+        "id": 2,
+        "name": "Shoyu Ramen",
+        "restaurant": "Ramen Jiro",
+        "rating": 4.5,
+        "image": "https://example.com/shoyu.jpg",
+        "review": "Savory soy sauce flavor with chewy noodles."
+      }
+    ]
+  }
